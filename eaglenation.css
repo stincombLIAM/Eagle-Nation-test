@@ -1,0 +1,118 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: 'bebas', Helvetica, sans-serif;
+	font-weight: 1200;
+	font-size: 260px;
+	color: white;
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	text-stroke-width: 40px;
+	text-stroke-color: white;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 200px;
+	background-color: white;
+	padding-bottom: 5px;
+}
+h1,h2 {
+	position: relative;
+	z-index: 2;
+}
+head {
+	margin: 0px;
+	padding: 0px;
+}
+main {
+	z-index: 4;
+	position: relative;
+}
+header {
+	background-image: url('images/whole_pose.jpg');
+	background-size: 100%;
+	background-position: 0px 700px;
+	background-attachment: scroll;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+}
+header::before {
+	content: '';
+	position: absolute;
+	top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-color: rgba(119, 73, 148,0);
+	transition: background-color 0.5s ease;
+	z-index: 1;
+}
+header:hover::before {
+	background-color: rgba(119, 73, 148, 0.5);
+}
+nav {
+	padding-left: 240px;
+	position: sticky;
+  	top: 0;
+  	overflow: hidden;
+	background: black;
+	padding-bottom: 10px;
+	padding-top:10px;
+}
+.navbar {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-family: 'federal';
+	background-color: black;
+	color: rgb(119, 73, 148);
+	margin: 0px;
+	text-decoration: none;
+}
+.navbar:hover {
+	background: rgb(119, 73, 148);
+	color: black;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#grab {
+	margin-left: 180px;
+	size: 80%;
+}
+@font-face {
+  font-family: 'bebas-nueue';
+  src: url('myfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('myfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'bebas';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/bebas/BebasNeue-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'circus';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/circus/Circus Of Innocents.woff') format('woff');
+}
+@font-face {
+  font-family: 'federal';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/federal/federalescort.woff') format('woff');
+}
