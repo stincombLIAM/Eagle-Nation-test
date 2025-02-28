@@ -61,7 +61,7 @@ header:hover::before {
 	background-color: rgba(119, 73, 148, 0.5);
 }
 nav {
-	padding-left: 240px;
+	padding-left: 440px;
 	position: sticky;
   	top: 0;
   	overflow: hidden;
@@ -75,7 +75,7 @@ nav {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	font-size: 25px;
-	font-family: 'federal';
+	font-family: 'bebas';
 	background-color: black;
 	color: rgb(119, 73, 148);
 	margin: 0px;
@@ -90,8 +90,8 @@ body {
 	padding: 0px;
 }
 #grab {
-	margin-left: 180px;
 	size: 80%;
+	width: 100%;
 }
 @font-face {
   font-family: 'bebas-nueue';
